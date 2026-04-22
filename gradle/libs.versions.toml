@@ -62,6 +62,8 @@ gradleGitProperties = "2.5.7"
 dokka = "2.2.0"
 nodeGradle = "7.1.0"
 
+ktor = "3.4.2"
+
 [libraries]
 minecraft = { group = "com.mojang", name = "minecraft", version.ref = "minecraft" }
 fabric-loader = { group = "net.fabricmc", name = "fabric-loader", version.ref = "fabric-loader" }
@@ -104,6 +106,14 @@ immediatelyFast = { group = "maven.modrinth", name = "ImmediatelyFast", version.
 iris = { group = "maven.modrinth", name = "iris", version.ref = "iris" }
 waygl = { group = "maven.modrinth", name = "waygl", version.ref = "waygl" }
 cloth-config = { group = "maven.modrinth", name = "cloth-config", version = "21.11.153+fabric" }
+
+ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "ktor" }
+ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "ktor" }
+ktor-server-websockets = { module = "io.ktor:ktor-server-websockets", version.ref = "ktor" }
+ktor-server-status-pages = { module = "io.ktor:ktor-server-status-pages", version.ref = "ktor" }
+ktor-server-call-logging = { module = "io.ktor:ktor-server-call-logging", version.ref = "ktor" }
+ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "ktor" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
 
 [plugins]
 fabric-loom = { id = "fabric-loom", version.ref = "fabric-loom" }

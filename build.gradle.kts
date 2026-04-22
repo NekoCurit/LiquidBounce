@@ -171,6 +171,17 @@ dependencies {
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.fabric.loader.junit)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    jij(libs.ktor.server.core)
+    jij(libs.ktor.server.cio)
+    jij(libs.ktor.server.websockets)
+    jij(libs.ktor.server.status.pages)
+    jij(libs.ktor.server.call.logging)
+    jij(libs.ktor.server.content.negotiation)
+    jij(libs.ktor.serialization.kotlinx.json)
+
+    // Source: https://mvnrepository.com/artifact/nl.vv32.rcon/rcon
+    jij("nl.vv32.rcon:rcon:1.2.0")
 }
 
 addResolvedDependencies(jij, "compileOnly", "include", "api")

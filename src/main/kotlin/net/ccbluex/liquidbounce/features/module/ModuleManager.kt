@@ -85,6 +85,7 @@ import net.ccbluex.liquidbounce.features.module.modules.exploit.servercrasher.Mo
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleDankBobbing
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleDerp
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleHandDerp
+import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleNewBlockProtocol
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleSkinDerp
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleTwerk
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.ModuleVomit
@@ -517,6 +518,7 @@ object ModuleManager : EventListener, Collection<ClientModule> by modules {
             ModuleHandDerp,
             ModuleTwerk,
             ModuleVomit,
+            ModuleNewBlockProtocol,
 
             // Misc
             ModuleAutoConfig,
