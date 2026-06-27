@@ -165,6 +165,10 @@ dependencies {
     testImplementation(platform(libs.junit.bom))
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly(libs.junit.platform.launcher)
+
+    jij("io.ktor:ktor-client-core:3.5.0")
+    jij("io.ktor:ktor-client-java:3.5.0")
+    jij("io.ktor:ktor-client-websockets:3.5.0")
 }
 
 addResolvedDependencies(jij, "compileOnly", "include", "api")
